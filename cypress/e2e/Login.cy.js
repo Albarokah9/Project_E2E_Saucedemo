@@ -67,7 +67,7 @@ describe('Login Test', function ()  {
       .getDashboardTitle();
     });
 
-    it('login visual_uer', function () {
+    it('login visual_user', function () {
         const visual_user = this.dataUser.visual_user;
         // login dengan page object model
         LoginPage.login(visual_user.username, visual_user.password)
