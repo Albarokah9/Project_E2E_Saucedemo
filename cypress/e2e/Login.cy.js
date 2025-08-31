@@ -62,5 +62,17 @@ describe('Login Test', function ()  {
       // Assertion: error_user tetap berhasil login ke inventory
       .getUrlInventory()
       .getDashboardTitle();
-    }); 
+    });
+
+    it('login visual_uer', function () {
+        const visual_user = this.dataUser.visual_user;
+        // login dengan page object model
+        LoginPage.login(visual_user.username, visual_user.password)
+
+        // Assertion: visual_user tetap berhasil login ke inventory
+        // Semua gambar produk adalah gambar anjing
+        // Tombol hamburger (menu) agak sedikit miring ke bawah dan tombol cart (keranjang) agak tidak sesaui dengan user lain 
+        .getUrlInventory()
+        .getDashboardTitle();
+    });
 });
