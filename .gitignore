@@ -1,2 +1,6 @@
+allure-results/
+allure-report/
+allure-history/
+cypress/videos/
+cypress/screenshots/
 node_modules/
-videos/
