@@ -65,8 +65,9 @@ class LoginPage {
     getImageProduct() {
         this.imageProduct().each(($img) => {
             cy.wrap($img).should('have.attr', 'src', '/static/media/sl-404.168b1cce.jpg');
-        });
-        return this;
+            return this;
+    });
+        
     }
     // method to perform the complete login process
     login(username, password) {
