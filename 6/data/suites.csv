@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Aug 31 17:03:10 GMT 2025","Sun Aug 31 17:03:11 GMT 2025","740","","Login Test","","","","login problem_user",""
-"passed","Sun Aug 31 17:03:08 GMT 2025","Sun Aug 31 17:03:09 GMT 2025","1692","","Login Test","","","","login standard_user",""
-"passed","Sun Aug 31 17:03:17 GMT 2025","Sun Aug 31 17:03:18 GMT 2025","694","","Login Test","","","","login error_user",""
-"passed","Sun Aug 31 17:03:21 GMT 2025","Sun Aug 31 17:03:23 GMT 2025","1555","","Logout Test","","","","Logout Test",""
-"passed","Sun Aug 31 17:03:11 GMT 2025","Sun Aug 31 17:03:17 GMT 2025","5865","","Login Test","","","","login performance_glitch_user",""
-"passed","Sun Aug 31 17:03:09 GMT 2025","Sun Aug 31 17:03:10 GMT 2025","849","","Login Test","","","","login locked_out_user",""
-"passed","Sun Aug 31 17:03:18 GMT 2025","Sun Aug 31 17:03:18 GMT 2025","687","","Login Test","","","","login visual_user",""

@@ -1,0 +1,96 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "login standard_user",
+    "uid" : "e23c2059741ae966",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1756659806143,
+      "stop" : 1756659808010,
+      "duration" : 1867
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login locked_out_user",
+    "uid" : "d6fda96d22e15d78",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1756659808052,
+      "stop" : 1756659808939,
+      "duration" : 887
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login problem_user",
+    "uid" : "1d85f2760d505ea2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1756659809011,
+      "stop" : 1756659809878,
+      "duration" : 867
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login performance_glitch_user",
+    "uid" : "b0c1f391edd4787f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1756659809908,
+      "stop" : 1756659815760,
+      "duration" : 5852
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login error_user",
+    "uid" : "fe24d9715c774404",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1756659815802,
+      "stop" : 1756659816529,
+      "duration" : 727
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login visual_user",
+    "uid" : "96838cfc1888388e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1756659816558,
+      "stop" : 1756659817244,
+      "duration" : 686
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout Test",
+    "uid" : "149719a8aabcfebd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1756659820367,
+      "stop" : 1756659821869,
+      "duration" : 1502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
