@@ -9,7 +9,7 @@ class LoginPage {
     }
     // method to get the login button
     loginButton() {
-        return cy.get('[data-test="login-button"]');   
+        return cy.get('[data-test="login-button"]');
     }
     // method to get the error message
     errorMessage() {
@@ -28,7 +28,7 @@ class LoginPage {
         return cy.get('.inventory_item_img img');
     }
     // method to visit the login page
-    visit () {
+    visit() {
         cy.visit('/');
     }
     // method to perform login action
@@ -48,8 +48,13 @@ class LoginPage {
     }
     // method to get the error message after login attempt
     getErrorMessage() {
-        this.errorMessage().should('be.visible').and('have.text', 'Epic sadface: Sorry, this user has been locked out.');
-        return this;    
+        this.errorMessage()
+            .should('be.visible')
+            .and(
+                'have.text',
+                'Epic sadface: Sorry, this user has been locked out.'
+            );
+        return this;
     }
     // method to verify the URL after login
     getUrlInventory() {
@@ -64,8 +69,12 @@ class LoginPage {
     // methode to verify the product images are dog images
     getImageProduct() {
         this.imageProduct().each(($img) => {
-            cy.wrap($img).should('have.attr', 'src', '/static/media/sl-404.168b1cce.jpg');
-    });
+            cy.wrap($img).should(
+                'have.attr',
+                'src',
+                '/static/media/sl-404.168b1cce.jpg'
+            );
+        });
         return this;
     }
     // method to perform the complete login process
