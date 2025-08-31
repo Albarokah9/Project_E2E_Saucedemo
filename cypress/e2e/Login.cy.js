@@ -7,7 +7,7 @@ describe('Login Test', () => {
         cy.fixture('user.json').as('dataUser');
     });
 
-    it('login standard_user', () => {
+    it('Login standard_user', () => {
         cy.get('@dataUser').then((dataUser) => {
             const standard_user = dataUser.standard_user;
             // login dengan page object model
@@ -20,7 +20,7 @@ describe('Login Test', () => {
         });
     });
 
-    it('login locked_out_user', () => {
+    it('Login locked_out_user', () => {
         cy.get('@dataUser').then((dataUser) => {
             const locked_out_user = dataUser.locked_out_user;
             // login dengan page object model
@@ -31,7 +31,7 @@ describe('Login Test', () => {
         });
     });
 
-    it('login problem_user', () => {
+    it('Login problem_user', () => {
         cy.get('@dataUser').then((dataUser) => {
             const problem_user = dataUser.problem_user;
             // login dengan page object model
@@ -47,7 +47,7 @@ describe('Login Test', () => {
         });
     });
 
-    it('login performance_glitch_user', () => {
+    it('Login performance_glitch_user', () => {
         cy.get('@dataUser').then((dataUser) => {
             const performance_glitch = dataUser.performance_glitch_user;
 
@@ -64,7 +64,7 @@ describe('Login Test', () => {
         });
     });
 
-    it('login error_user', () => {
+    it('Login error_user', () => {
         cy.get('@dataUser').then((dataUser) => {
             const error_user = dataUser.error_user;
             // login dengan page object model
@@ -78,7 +78,7 @@ describe('Login Test', () => {
         });
     });
 
-    it('login visual_user', () => {
+    it('Login visual_user', () => {
         cy.get('@dataUser').then((dataUser) => {
             const visual_user = dataUser.visual_user;
             // login dengan page object model
