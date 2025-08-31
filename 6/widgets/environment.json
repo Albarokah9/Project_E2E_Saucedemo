@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "12/merge" ],
+  "name" : "BRANCH"
+}, {
+  "values" : [ "chrome" ],
+  "name" : "BROWSER"
+}, {
+  "values" : [ "https://www.saucedemo.com/" ],
+  "name" : "BASE_URL"
+}, {
+  "values" : [ "6145d2c97d027349d9342634e854d6106697e1b1" ],
+  "name" : "SHA"
+} ]
