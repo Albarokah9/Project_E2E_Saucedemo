@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "BRANCH"
+}, {
+  "values" : [ "chrome" ],
+  "name" : "BROWSER"
+}, {
+  "values" : [ "https://www.saucedemo.com/" ],
+  "name" : "BASE_URL"
+}, {
+  "values" : [ "6d61b8794277e4e7e8626572062f665614c15edf" ],
+  "name" : "SHA"
+} ]
