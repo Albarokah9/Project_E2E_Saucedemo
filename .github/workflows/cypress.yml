@@ -1,0 +1,35 @@
+name: Cypress Tests
+
+# Workflow akan berjalan setiap kali ada push atau pull request
+on: [push, pull_request]
+
+# Mendefinisikan satu pekerjaan (job)
+jobs:
+  cypress-run:
+    # Menjalankan job ini di runner Ubuntu terbaru
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Langkah 1: Checkout kode dari repositori
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Langkah 2: Menyiapkan dan menjalankan Cypress
+      - name: Cypress run
+        # Menggunakan action GitHub resmi dari Cypress
+        uses: cypress-io/github-action@v6
+        with:
+          # Karena situs sudah online, tidak perlu memulai server web.
+          # Baris 'start' dan 'wait-on' dihapus.
+          
+          # Mengaktifkan perekaman ke Cypress Cloud.
+          # Pastikan Anda sudah mengatur CYPRESS_RECORD_KEY di GitHub Secrets.
+          record: true
+          
+        # Variabel lingkungan untuk pekerjaan ini
+        env:
+          # Mengambil Record Key dari GitHub Secrets.
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          
+          # Token yang diperlukan untuk otentikasi dengan GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
