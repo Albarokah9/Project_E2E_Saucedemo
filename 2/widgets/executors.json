@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Albarokah9.github.io/Project_E2E_Saucedemo",
+  "buildOrder" : 2,
+  "buildName" : "GitHub Actions Run #17356922016",
+  "buildUrl" : "https://github.com/Albarokah9/Project_E2E_Saucedemo/actions/runs/17356922016",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Albarokah9.github.io/Project_E2E_Saucedemo/2"
+} ]

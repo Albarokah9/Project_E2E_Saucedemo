@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "cypress.e2e.Login.cy.js",
+    "children" : [ {
+      "name" : "login standard_user",
+      "uid" : "eebd1a955d427b8f",
+      "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756642213604,
+        "stop" : 1756642215151,
+        "duration" : 1547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "login locked_out_user",
+      "uid" : "29b7bb802b1232a1",
+      "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756642215191,
+        "stop" : 1756642215972,
+        "duration" : 781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "login problem_user",
+      "uid" : "19cce8b06c45b97",
+      "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756642216046,
+        "stop" : 1756642216859,
+        "duration" : 813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "login performance_glitch_user",
+      "uid" : "f551bbbae8c8446",
+      "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756642216891,
+        "stop" : 1756642222770,
+        "duration" : 5879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "login error_user",
+      "uid" : "ad7a1d3320f96c2f",
+      "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756642222828,
+        "stop" : 1756642223534,
+        "duration" : 706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "login visual_user",
+      "uid" : "a22cfae9106e95a5",
+      "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756642223578,
+        "stop" : 1756642224338,
+        "duration" : 760
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cypress.e2e.Login.cy.js"
+  } ],
+  "name" : "packages"
+}

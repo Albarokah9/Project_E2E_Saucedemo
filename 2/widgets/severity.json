@@ -1,0 +1,61 @@
+[ {
+  "uid" : "ad7a1d3320f96c2f",
+  "name" : "login error_user",
+  "time" : {
+    "start" : 1756642222828,
+    "stop" : 1756642223534,
+    "duration" : 706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eebd1a955d427b8f",
+  "name" : "login standard_user",
+  "time" : {
+    "start" : 1756642213604,
+    "stop" : 1756642215151,
+    "duration" : 1547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f551bbbae8c8446",
+  "name" : "login performance_glitch_user",
+  "time" : {
+    "start" : 1756642216891,
+    "stop" : 1756642222770,
+    "duration" : 5879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a22cfae9106e95a5",
+  "name" : "login visual_user",
+  "time" : {
+    "start" : 1756642223578,
+    "stop" : 1756642224338,
+    "duration" : 760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29b7bb802b1232a1",
+  "name" : "login locked_out_user",
+  "time" : {
+    "start" : 1756642215191,
+    "stop" : 1756642215972,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19cce8b06c45b97",
+  "name" : "login problem_user",
+  "time" : {
+    "start" : 1756642216046,
+    "stop" : 1756642216859,
+    "duration" : 813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
