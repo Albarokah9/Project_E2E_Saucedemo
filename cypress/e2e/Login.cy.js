@@ -52,17 +52,15 @@ describe('Login Test', function ()  {
       .getDashboardTitle();
   });
 
-  // it('login error_user', function()  {
-  //   cy.get('@dataUser').then(({ error_user }) => {
-  //     const { username, password } = error_user;
-      
-  //     cy.get('[data-test="username"]').type(username);
-  //     cy.get('[data-test="password"]').type(password);
-  //     cy.get('[data-test="login-button"]').click();
+  it.only('login error_user', function()  {
+      const error_user = this.dataUser.error_user;
+      // login dengan page object model
+      // Meski error_user memiliki username dan password yang benar, namun tidak bisa login
+      // karena ada masalah pada sisi aplikasi
+      LoginPage.login( error_user.username,  error_user.password)
 
-  //     // Assertion: error_user tetap berhasil login ke inventory
-  //     cy.url().should('include', '/inventory.html');
-  //     cy.get('[data-test="title"]').should('have.text', 'Products');
-  //   }); 
-  // });
+      // Assertion: error_user tetap berhasil login ke inventory
+      .getUrlInventory()
+      .getDashboardTitle();
+    }); 
 });
