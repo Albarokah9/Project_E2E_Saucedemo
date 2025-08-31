@@ -9,7 +9,7 @@ describe('Login Test', function ()  {
 
   it('login standard_user', function () {
       const standard_user = this.dataUser.standard_user;
-
+      // login dengan page object model
       LoginPage.login(standard_user.username, standard_user.password)
 
       // Assertion: Url mengandung /inventory.html dan muncul teks "Products"
@@ -20,7 +20,7 @@ describe('Login Test', function ()  {
 
   it('login locked_out_user', function () {
       const locked_out_user = this.dataUser.locked_out_user;
-
+      // login dengan page object model
       LoginPage.login(locked_out_user.username, locked_out_user.password)
   
       // Assertion: muncul pesan error "Epic sadface: Sorry, this user has been locked out."
@@ -30,7 +30,7 @@ describe('Login Test', function ()  {
 
   it('login problem_user', function () {
       const problem_user = this.dataUser.problem_user;
-      
+      // login dengan page object model
       LoginPage.login(problem_user.username, problem_user.password)
 
       // problem_user tetap berhasil login ke inventory dan muncul teks "Products"
