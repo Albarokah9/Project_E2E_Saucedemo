@@ -52,7 +52,7 @@ describe('Login Test', function ()  {
       .getDashboardTitle();
   });
 
-  it.only('login error_user', function()  {
+  it('login error_user', function()  {
       const error_user = this.dataUser.error_user;
       // login dengan page object model
       // Meski error_user memiliki username dan password yang benar, namun tidak bisa login
