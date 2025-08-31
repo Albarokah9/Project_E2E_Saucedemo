@@ -13,6 +13,7 @@ describe('Login Test', function ()  {
       LoginPage.login(standard_user.username, standard_user.password)
 
       // Assertion: Url mengandung /inventory.html dan muncul teks "Products"
+      // Berhasil login dan diarahkan ke halaman Products (inventory)
       .getUrlInventory()
       .getDashboardTitle();      
   });
@@ -38,6 +39,7 @@ describe('Login Test', function ()  {
       .getDashboardTitle()
 
       // Assertion: semua gambar produk adalah gambar anjing
+      // BUG[problem_user]: gambar/judul mismatch; Add to cart/Remove sebagian tak bisa diklik; Checkout Last Name tak bisa diinput.
       .getImageProduct();
   });
 
@@ -48,6 +50,7 @@ describe('Login Test', function ()  {
 
       // Assertion: performance_glitch_user tetap berhasil login ke inventory
       // Proses logi akan sedikit lebih lama dari user lain
+      // BUG[performance_glitch_user]: ada delay/glitch pasca-login; toleransi timeout perlu lebih besar.
       .getUrlInventory()
       .getDashboardTitle();
   });
