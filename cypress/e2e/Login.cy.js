@@ -41,19 +41,16 @@ describe('Login Test', function ()  {
       .getImageProduct();
   });
 
-  // it('login performance_glitch_user', function ()  {
-  //   cy.get('@dataUser').then(({ performance_glitch_user }) => {
-  //     const { username, password } = performance_glitch_user;
+  it('login performance_glitch_user', function ()  {
+      const performance_glitch = this.dataUser.performance_glitch_user;
       
-  //     cy.get('[data-test="username"]').type(username);
-  //     cy.get('[data-test="password"]').type(password);
-  //     cy.get('[data-test="login-button"]').click();
+      LoginPage.login(performance_glitch.username, performance_glitch.password)
 
-  //     // Assertion: performance_glitch_user tetap berhasil login ke inventory
-  //     cy.url().should('include', '/inventory.html');
-  //     cy.get('[data-test="title"]').should('have.text', 'Products');
-  //   }); 
-  // });
+      // Assertion: performance_glitch_user tetap berhasil login ke inventory
+      // Proses logi akan sedikit lebih lama dari user lain
+      .getUrlInventory()
+      .getDashboardTitle();
+  });
 
   // it('login error_user', function()  {
   //   cy.get('@dataUser').then(({ error_user }) => {
