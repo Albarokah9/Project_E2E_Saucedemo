@@ -1,0 +1,108 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "cypress.e2e",
+    "children" : [ {
+      "name" : "Login.cy.js",
+      "children" : [ {
+        "name" : "Login standard_user",
+        "uid" : "11aee483ca6d0cba",
+        "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756660484564,
+          "stop" : 1756660486830,
+          "duration" : 2266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login locked_out_user",
+        "uid" : "c7ad3a5b97ad82da",
+        "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756660486883,
+          "stop" : 1756660487716,
+          "duration" : 833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login problem_user",
+        "uid" : "aa9b810713704c97",
+        "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756660487800,
+          "stop" : 1756660488571,
+          "duration" : 771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login performance_glitch_user",
+        "uid" : "c04b2de35ba05d28",
+        "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756660488603,
+          "stop" : 1756660494430,
+          "duration" : 5827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login error_user",
+        "uid" : "40039fd9439742cf",
+        "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756660494478,
+          "stop" : 1756660495207,
+          "duration" : 729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login visual_user",
+        "uid" : "e3b611197ec2d9e1",
+        "parentUid" : "6b91f20ccfd3ea2a9724ca9d225df381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756660495250,
+          "stop" : 1756660495969,
+          "duration" : 719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Login.cy.js"
+    }, {
+      "name" : "Logout.cy.js",
+      "children" : [ {
+        "name" : "Logout Test",
+        "uid" : "3561bd08cbeba5ea",
+        "parentUid" : "82e9612b81546f2fa7eaa150823c35df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756660499573,
+          "stop" : 1756660501220,
+          "duration" : 1647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Logout.cy.js"
+    } ],
+    "uid" : "cypress.e2e"
+  } ],
+  "name" : "packages"
+}
